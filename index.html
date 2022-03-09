@@ -1,0 +1,48 @@
+<html>
+    <head>
+    <title>COLLAGE MAKER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+    <body>
+    <center>
+        <h1>Collage Maker <img src = "https://s3.amazonaws.com/thumbnails.venngage.com/template/d292f483-2bbe-4e69-a304-614e3ac67a74.png" height="90"></h1>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3>Say "take my selfie"</h3>
+            
+            <label>Your voice output : </label>
+            <br><br>
+            <textarea class="form-control" id="speech_box" readonly="true" width="50px"></textarea>
+
+        </div>
+
+        <p>Press the Start button</p>
+        <button id= "start-btn" class="btn btn-primary" onclick="start();" style="font-size:20px;">START</button>
+        <br><br>
+        <label>Your webcam : </label>
+        <div id= "camera"></div>
+        <br><br>
+        <div id="pic1"></div>
+        <br><br>
+        <div id="pic2"></div>
+        <br><br>
+        <div id="pic3"></div>
+
+
+
+
+
+
+    </center>
+    <script lang="text/javascript" src="main.js"></script>
+    </body>
+</html>
